@@ -40,19 +40,27 @@
     </header>
   </div>
   
-      <main class="header-main">
-        <h1>HTML Forms</h1>
-        <h2>Standard form</h2>
+      <main>
+        <h1>Send Me an Email</h1>
+        <h2>Interested in my work? Send me an Email to get in touch! </h2>
+        <hr />
         <form action="thank-you.html">
           <ul>
             <li>
               <label for="name">Name:</label>
               <input type="text" id="name" name="user_name" />
             </li>
+            <br>
+            <li>
+              <label for="name">Company:</label>
+              <input type="text" id="company" name="user_company" />
+            </li>
+            <br>
             <li>
               <label for="mail">E-mail:</label>
               <input type="email" id="mail" name="user_email" required/>
             </li>
+            <br>
             <li>
               <label for="msg">Message:</label>
               <textarea id="msg" name="user_message"></textarea>
@@ -60,8 +68,7 @@
           </ul>
           <input type="submit" value="Submit">
         </form>
-      </div>
-<footer></footer>
+      </main>
 </body>
-
+<footer></footer>
 </html>

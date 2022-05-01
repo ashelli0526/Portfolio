@@ -11,21 +11,25 @@ html{
 h1{
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  color: #b7e4bf;
+  color: #809b85;
 }
 
 h2{
+  text-align: center;
   font-family: 'Montserrat', sans-serif;
-  color: #b7e4bf;
+  color: #809b85;
 }
 
-p{
+h3, p, a, ul, li{
   font-family: 'Montserrat', sans-serif;
+  color: #809b85;
 }
 
-a{
-  font-family: 'Montserrat', sans-serif;
+
+ul, li{
+  list-style-type: none;
 }
+
 
 .header-link {
   border-radius: 5px;
@@ -149,4 +153,32 @@ footer{
   align-items: center;
 
 
+}
+.portfolio-sub-margin {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.portfolio-section-background {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding-left: 60px;
+  padding-right: 60px;
+  background-color: #B0C4B1;
+}
+
+.portfolio-section-description {
+  width: 50%;
+}
+
+.portfolio-section-image {
+  margin-right: 20px;
+  margin-left: 20px;
+  width: 50%;
+}
+.text-box {
+  inline-size: 400px;
+  margin-right: 20px;
+  margin-left: 20ox;
+  background-color: #B0C4B1;
 }
