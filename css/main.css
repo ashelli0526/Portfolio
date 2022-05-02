@@ -22,7 +22,7 @@ h2{
 
 h3, p, a, ul, li{
   font-family: 'Montserrat', sans-serif;
-  color: #809b85;
+  color: #000000;
 }
 
 
@@ -69,7 +69,7 @@ ul, li{
 }
 
 .header-logo {
-width: 165px;
+width: 180px;
 }
 .header-main {
   grid-area: main;
@@ -164,7 +164,7 @@ footer{
   gap: 24px;
   padding-left: 60px;
   padding-right: 60px;
-  background-color: #B0C4B1;
+  background-color: #99c58e;
 }
 
 .portfolio-section-description {
