@@ -26,45 +26,45 @@
 </head>
 
 <body>
-   <div class="header-container">
-     <header class="header">
-       <div class="header-wrapper">
-        <img class="header-logo" src="img/ASE.jpg" alt="logo for portfolio">
-         <nav>
+  <div class="header-container">
+    <header class="header">
+      <div class="header-wrapper">
+        <a href="index.html">
+          <img class="header-logo" src="img/ASE.jpg" alt="logo for portfolio">
+          </a>
+        <nav>
             <a class="header-link" href="resume.html" style="text-decoration:none">Resume</a>
             <a class="header-link" href="contact.html" style="text-decoration:none">Contact Me</a>
             <a class="header-link" href="portfolio.html" style="text-decoration:none">Portfolio</a>
-         </nav>
-       </div>
-     </header>
-   </div>
- <footer></footer>
+        </nav>
+      </div>
+    </header>
+  </div>
+<h1>Video Games</h1>
+<hr>
+<h2> Level Design and Programming</h2>
+  <div class="portfolio-sub-margin">
+    <div class="portfolio-section-background">
+      <div class="portfolio-section-description">
+            <h3 class="text-box">Mona (Chillenium Game Jam 2022)</h3>
+            <p class="text-box">
+              Though I have not worked on many games this is my first game completed. MONA was made during a 48 hour game jam in April 2022 and in its simplicity, You help Mona Lisa return back to the Lourve in a Cyperpunk themed world fitting for the game jam topic of "You can not mix those". I worked on most of the coding in Gamemaker and also designed the levels.  I hope to potentially pursue a career in level design and game development.
+              </p>
+              <a href="https://ash-elli.itch.io/mona" target="_blank">Visit here to download Mona and play (available on Windows)</a>
+        </div>
+              <video width="500" controls>
+              <source src="img/mona.mp4" type="video/mp4">
+              </video>
+      </div>
+    </div>
+  </div>
+  
+<footer></footer>
 </body>
 
 </html>
 
-<script>
-  let slideIndex = 0;
-  showSlides();
-  
-  function showSlides() {
-    let i;
-    let slides = document.getElementsByClassName("mySlides");
-    let dots = document.getElementsByClassName("dot");
-    for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}    
-    for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 3000); // Change image every 2 seconds
-  }
-  </script>
-  
+
   </body>
   </html> 
   

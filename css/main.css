@@ -184,3 +184,42 @@ footer{
   font-size: large;
 
 }
+
+form { max-width:420px; margin:50px auto; }
+
+.contact-input {
+  color:rgb(0, 0, 0);
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #99c58e;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #7da174; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  width: 100%;
+  background:#99c58e;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:rgb(255, 255, 255);
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#7da174; }

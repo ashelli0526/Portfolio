@@ -30,7 +30,9 @@
   <div class="header-container">
     <header class="header">
       <div class="header-wrapper">
-        <img class="header-logo" src="img/ASE.jpg" alt="logo for portfolio">
+        <a href="index.html">
+          <img class="header-logo" src="img/ASE.jpg" alt="logo for portfolio">
+          </a>
         <nav>
            <a class="header-link" href="index.html" style="text-decoration:none">Home</a>
            <a class="header-link" href="resume.html" style="text-decoration:none">Resume</a>
@@ -45,28 +47,10 @@
         <h2>Interested in my work? Send me an Email to get in touch! </h2>
         <hr />
         <form action="thank-you.html">
-          <ul>
-            <li>
-              <label for="name">Name:</label>
-              <input type="text" id="name" name="user_name" />
-            </li>
-            <br>
-            <li>
-              <label for="name">Company:</label>
-              <input type="text" id="company" name="user_company" />
-            </li>
-            <br>
-            <li>
-              <label for="mail">E-mail:</label>
-              <input type="email" id="mail" name="user_email" required/>
-            </li>
-            <br>
-            <li>
-              <label for="msg">Message:</label>
-              <textarea id="msg" name="user_message"></textarea>
-            </li>
-          </ul>
-          <input type="submit" value="Submit">
+          <input name="name" type="text" class="contact-input" placeholder="Name" />   
+          <input type="email" id="mail" class="contact-input" placeholder="Email" required/>
+          <textarea name="text" class="contact-input" placeholder="Message"></textarea>
+          <input type="submit" value="SUBMIT"/>
         </form>
       </main>
 </body>
