@@ -1,58 +1,66 @@
 <!doctype html>
 <html class="no-js" lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <title>Ash Elliott - Contact Me</title>
-  <meta name="description" content="Contact Page made for final of ART 3020">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-  <!-- Place favicon.ico in the root directory -->
-
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-
-  <meta name="theme-color" content="#fafafa">
-</head>
-
-<body>
-  <div class="header-container">
-    <header class="header">
-      <div class="header-wrapper">
-        <a href="index.html">
-          <img class="header-logo" src="img/ASE.jpg" alt="logo for portfolio">
-          </a>
-        <nav>
-           <a class="header-link" href="index.html" style="text-decoration:none">Home</a>
-           <a class="header-link" href="resume.html" style="text-decoration:none">Resume</a>
-           <a class="header-link" href="portfolio.html" style="text-decoration:none">Portfolio</a>
-        </nav>
+   <head>
+      <meta charset="utf-8">
+      <title>Ash Elliott - Contact Me</title>
+      <meta name="description" content="Contact Page made for final of ART 3020">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta property="og:title" content="">
+      <meta property="og:type" content="">
+      <meta property="og:url" content="">
+      <meta property="og:image" content="">
+      <link rel="manifest" href="site.webmanifest">
+      <link rel="apple-touch-icon" href="icon.png">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+      <!-- Place favicon.ico in the root directory -->
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="css/main.css">
+      <meta name="theme-color" content="#fafafa">
+   </head>
+   <body>
+      <div class="header-container">
+         <header class="header">
+            <div class="header-wrapper">
+               <a href="index.html">
+               <img class="header-logo" src="img/ASE.jpg" alt="logo for portfolio">
+               </a>
+               <nav>
+                  <a class="header-link" href="index.html" style="text-decoration:none">Home</a>
+                  <a class="header-link" href="resume.html" style="text-decoration:none">Resume</a>
+                  <a class="header-link" href="portfolio.html" style="text-decoration:none">Portfolio</a>
+               </nav>
+            </div>
+         </header>
       </div>
-    </header>
-  </div>
-  
       <main>
-        <h1>Send Me an Email</h1>
-        <h2>Interested in my work? Send me an Email to get in touch! </h2>
-        <hr />
-        <form action="thank-you.html">
-          <input name="name" type="text" class="contact-input" placeholder="Name" />   
-          <input type="email" id="mail" class="contact-input" placeholder="Email" required/>
-          <textarea name="text" class="contact-input" placeholder="Message"></textarea>
-          <input type="submit" value="SUBMIT"/>
-        </form>
+         <h1>Send Me an Email</h1>
+         <h2>Interested in my work? Send me an Email to get in touch! </h2>
+         <hr />
+         <form action="thank-you.html">
+            <label for="name">Name:</label>
+            <input name="name" id="name" type="text" class="contact-input" placeholder="Name" />   
+            <label for="mail">E-mail:</label>
+            <input type="email" id="mail" class="contact-input" placeholder="Email" required/>
+            <label for="text">Message:</label>
+            <textarea name="text" id="text" class="contact-input" placeholder="Message"></textarea>
+            <input type="submit" value="SUBMIT"/>
+         </form>
       </main>
-</body>
-<footer></footer>
+   </body>
+   <footer>
+      <a href="https://twitter.com/home">
+      <img class="icon-png" src="img/twitter.png" alt="twitter icon">
+      <span class="icon">Twitter</span>
+      </a>
+      <a href="https://www.facebook.com/">
+      <img class="icon-png" src="img/facebook.png" alt="facebook icon">
+      <span class="icon">Facebook</span>
+      </a>
+      <a href="https://www.linkedin.com/">
+      <img class="icon-png" src="img/linkedin.png" alt="linked in icon">
+      <span class="icon">Linkedin</span>
+      </a>
+   </footer>
 </html>

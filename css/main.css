@@ -29,10 +29,13 @@ h3, p, a, ul, li{
 ul, li{
   list-style-type: none;
 }
+label{
+  display: none;
+}
 
 
 .header-link {
-  border-radius: 5px;
+    border-radius: 5px;
     background-color: transparent;
     color: rgb(0, 0, 0);
     border: 2px;
@@ -69,7 +72,8 @@ ul, li{
 }
 
 .header-logo {
-width: 180px;
+  max-width: 180px;
+  width: 100%;
 }
 .header-main {
   grid-area: main;
@@ -106,18 +110,23 @@ width: 180px;
   filter: blur(1px);
 }
 
-@media (max-width: 1000px) {
+
+
+@media (max-width: 800px) {
+
+    .header-link {
+      border-radius: 5px;
+      background-color: transparent;
+      color: rgb(0, 0, 0);
+      border: 2px;
+      font-size: 16px;
+      padding: 8px;
+      cursor: pointer;
+      display: flex;
+  }
   .g-grid {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
-}
-
-@media (min-width: 999px) {
-  .g-grid {
-    list-style-type: none;
-    padding-left: 70px;
-    padding-right: 70px;
-    }
   }
 
   .text-box {
@@ -168,14 +177,22 @@ width: 180px;
 
 
 footer{
-  position: fixed;
-  background-color: #99c58e;
   left: 0;
   bottom: 0;
   width: 100%;
   align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+  padding-bottom: 20px;
+}
 
+.icon{
+  display: none;
+}
 
+.icon-png{
+      height: 48px;
+    width: 48px;
 }
 .portfolio-sub-margin {
   margin-right: 20px;
@@ -233,7 +250,7 @@ textarea {
 
 [type="submit"] {
   width: 100%;
-  background:#99c58e;
+  background:#68a05a;
   border-radius:5px;
   border:0;
   cursor:pointer;
@@ -243,7 +260,16 @@ textarea {
   padding-bottom:10px;
   transition: all 0.3s;
   margin-top:-4px;
-  font-weight:700;
 }
-[type="submit"]:hover { background:#7da174; }
+[type="submit"]:hover { background:#44613c; }
+
+.resume-design1{
+  background-color: #68a05a;
+  text-align: center;
+
+  
+}
+.resume-design2{
+  text-align: center;
+}
 
