@@ -112,27 +112,10 @@ label{
 
 
 
-@media (max-width: 800px) {
 
-    .header-link {
-      border-radius: 5px;
-      background-color: transparent;
-      color: rgb(0, 0, 0);
-      border: 2px;
-      font-size: 16px;
-      padding: 8px;
-      cursor: pointer;
-      display: flex;
-  }
-  .g-grid {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  }
-  }
 
   .text-box {
-    inline-size: 347px;
-    margin-right: 20px;
-    margin-left: 20ox;
+    inline-size: 200px;
     color: #000000;
     font-size: large;
 }
@@ -194,10 +177,7 @@ footer{
       height: 48px;
     width: 48px;
 }
-.portfolio-sub-margin {
-  margin-right: 20px;
-  margin-left: 20px;
-}
+
 .portfolio-section-background {
   display: flex;
   align-items: center;
@@ -273,3 +253,29 @@ textarea {
   text-align: center;
 }
 
+@media only screen and (max-width: 900px) {
+
+ 
+  .portfolio-section-background {
+      align-items: center;
+      gap: 24px;
+      padding-left: 60px;
+      padding-right: 60px;
+      background-color: #99c58e;
+      flex-wrap: wrap;
+  }
+  
+      .header-link {
+        border-radius: 5px;
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        border: 2px;
+        font-size: 16px;
+        padding: 8px;
+        cursor: pointer;
+        display: flex;
+    }
+    .g-grid {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+    }
